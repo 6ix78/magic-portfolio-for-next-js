@@ -8,33 +8,31 @@ const person = {
     },
     role:      'Design Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Nigeria/Enugu',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Igbo']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
 }
-
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>Stay tuned as Pro6ixty continues to push the boundaries of web development, embracing new trends that make the digital world faster and smarter.</>
+    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
 }
-
 const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
     {
-        name: 'Telegram',
-        icon: 'telegram',
-        link: 'https://t.me/pro6ixty',
+        name: 'GitHub',
+        icon: 'github',
+        link: 'https://github.com/once-ui-system/nextjs-starter',
     },
     {
-        name: 'WhatsApp',
-        icon: 'whatsapp',
-        link: 'https://wa.me/qr/CYYXJVGZIV7UD1',
+        name: 'LinkedIn',
+        icon: 'linkedin',
+        link: 'https://www.linkedin.com/company/once-ui/',
     },
     {
-        name: 'Facebook',
-        icon: 'facebook',
-        link: 'https://www.facebook.com/share/t88KAoGdb6yp3YCz/',
+        name: 'X',
+        icon: 'x',
+        link: '',
     },
     {
         name: 'Email',
@@ -42,13 +40,12 @@ const social = [
         link: 'mailto:designwith6ix@gmail.com',
     },
 ]
-
 const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
     description: `Pro6ixty continuously adopts the latest trends and technologies showcasing my work as a ${person.role}`,
     headline: <>Design Engineer and Builder</>,
-    subline: <>I'm Sixtus, a design engineer and Full stack-developer. <InlineCode>Come 🫴 Let's bring your Business online</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    subline: <>From sleek front-end designs to robust back-end architectures<br/><InlineCode>Pro6ixty</InlineCode> A dynamic web developer with seven years of hands-on experience<br/>crafting powerful, intuitive, and visually stunning websites.</>
 }
 
 const about = {
@@ -64,7 +61,7 @@ const about = {
     },
     calendar: {
         display: true,
-        link: 'https://cal.com'
+        link: ''
     },
     intro: {
         display: true,
