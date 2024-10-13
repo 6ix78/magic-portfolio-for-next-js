@@ -45,7 +45,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Pro6ixty continuously adopts the latest trends and technologies showcasing my work as a ${person.role}`,
     headline: <>Design Engineer and Builder</>,
-    subline: <>From sleek front-end designs to robust back-end architectures<InlineCode>Pro6ixty</InlineCode> A dynamic web developer with seven years of hands-on experience<br/>crafting powerful, intuitive, and visually stunning websites.</>
+    subline: <>From sleek front-end designs to robust back-end architectures<br/><InlineCode>Pro6ixty</InlineCode>is a dynamic web developer with seven years of hands-on experience<br/>crafting powerful, intuitive, and visually stunning websites.</>
 }
 
 const about = {
