@@ -1,54 +1,54 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Selene',
-    lastName:  'Yu',
+    firstName: 'Pro6ixty',
+    lastName:  '×͜×',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Design Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Asia/Jakarta',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Nigeria/Enugu',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English', 'Igbo']  // optional: Leave the array empty if you don't want to display languages
 }
 
 const newsletter = {
     display: true,
     title: <>Subscribe to {person.firstName}'s Newsletter</>,
-    description: <>I occasionally write about design, technology, and share thoughts on the intersection of creativity and engineering.</>
+    description: <>Stay tuned as Pro6ixty continues to push the boundaries of web development, embracing new trends that make the digital world faster and smarter.</>
 }
 
 const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
     {
-        name: 'GitHub',
-        icon: 'github',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        name: 'Telegram',
+        icon: 'telegram',
+        link: 'https://t.me/pro6ixty',
     },
     {
-        name: 'LinkedIn',
-        icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        name: 'WhatsApp',
+        icon: 'whatsapp',
+        link: 'https://wa.me/qr/CYYXJVGZIV7UD1',
     },
     {
-        name: 'X',
-        icon: 'x',
-        link: '',
+        name: 'Facebook',
+        icon: 'facebook',
+        link: 'https://www.facebook.com/share/t88KAoGdb6yp3YCz/',
     },
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:example@gmail.com',
+        link: 'mailto:designwith6ix@gmail.com',
     },
 ]
 
 const home = {
     label: 'Home',
     title: `${person.name}'s Portfolio`,
-    description: `Portfolio website showcasing my work as a ${person.role}`,
-    headline: <>Design engineer and builder</>,
-    subline: <>I'm Selene, a design engineer at <InlineCode>FLY</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
+    description: `Pro6ixty continuously adopts the latest trends and technologies showcasing my work as a ${person.role}`,
+    headline: <>Design Engineer and Builder</>,
+    subline: <>I'm Sixtus, a design engineer and Full stack-developer. <InlineCode>Come 🫴 Let's bring your Business online</InlineCode>, where I craft intuitive<br/> user experiences. After hours, I build my own projects.</>
 }
 
 const about = {
