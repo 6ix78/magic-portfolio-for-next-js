@@ -1,15 +1,15 @@
 import { InlineCode } from "@/once-ui/components";
 
 const person = {
-    firstName: 'Pro6ixty',
-    lastName:  '×͜×',
+    firstName: 'Sixtus',
+    lastName:  'Leo',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
     role:      'Design Engineer',
     avatar:    '/images/avatar.jpg',
-    location:  'Nigeria/enugu',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
-    languages: ['English', 'Bahasa']  // optional: Leave the array empty if you don't want to display languages
+    location:  'Africa/Lagos',        // Expecting the IANA time zone identifier, e.g., 'Europe/Vienna'
+    languages: ['English']  // optional: Leave the array empty if you don't want to display languages
 }
 const newsletter = {
     display: true,
@@ -45,7 +45,7 @@ const home = {
     title: `${person.name}'s Portfolio`,
     description: `Pro6ixty continuously adopts the latest trends and technologies showcasing my work as a ${person.role}`,
     headline: <>Design Engineer and Builder</>,
-    subline: <>From sleek front-end designs to robust back-end architectures<br/><InlineCode>Pro6ixty</InlineCode> A dynamic web developer with seven years of hands-on experience<br/>crafting powerful, intuitive, and visually stunning websites.</>
+    subline: <>From sleek front-end designs to robust back-end architectures<InlineCode>Pro6ixty</InlineCode> A dynamic web developer with seven years of hands-on experience<br/>crafting powerful, intuitive, and visually stunning websites.</>
 }
 
 const about = {
@@ -66,7 +66,7 @@ const about = {
     intro: {
         display: true,
         title: 'Introduction',
-        description: <>Selene is a Jakarta-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions. Her work spans digital interfaces, interactive experiences, and the convergence of design and technology.</>
+        description: <>Pro6ixty is a Nigeria-based design engineer with a passion for transforming complex challenges into simple, elegant design solutions.With a deep understanding of HTML, CSS, and JavaScript, paired with expertise in frameworks like React, Vue.js, and Angular, Pro6ixty brings creativity and innovation to every project.</>
     },
     work: {
         display: true, // set to false to hide this section
