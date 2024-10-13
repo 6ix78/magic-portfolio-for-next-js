@@ -20,9 +20,9 @@ const social = [
     // Links are automatically displayed.
     // Import new icons in /once-ui/icons.ts
     {
-        name: 'Telegram',
-        icon: 'telegram',
-        link: 'https://github.com/once-ui-system/nextjs-starter',
+        name: 'GitHub',
+        icon: 'github',
+        link: 'https://github.com/6ix78',
     },
     {
         name: 'LinkedIn',
