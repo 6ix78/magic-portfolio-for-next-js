@@ -27,7 +27,7 @@ const social = [
     {
         name: 'LinkedIn',
         icon: 'linkedin',
-        link: 'https://www.linkedin.com/company/once-ui/',
+        link: 'https://www.linkedin.com/in/pro-6i%C3%97%CD%9C%C3%97ty-886952227?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
     },
     {
         name: 'X',
