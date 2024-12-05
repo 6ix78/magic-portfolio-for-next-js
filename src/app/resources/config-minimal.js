@@ -38,7 +38,7 @@ const display = {
 }
 
 const mailchimp = {
-    action: 'https://url/subscribe/post?parameters',
+    action: 'mailto:designwith6ix@gmail.com',
     effects: {
         gradient: false,
         dots:     false,
