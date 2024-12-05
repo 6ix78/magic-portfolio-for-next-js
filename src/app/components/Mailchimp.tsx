@@ -18,7 +18,7 @@ function debounce<T extends (...args: any[]) => void>(func: T, delay: number): T
 export const Mailchimp = () => {
     const [email, setEmail] = useState<string>('');
     const [error, setError] = useState<string>('');
-    const [touched, setTouched] = useState<boolean>(true);
+    const [touched, setTouched] = useState<boolean>(false);
 
     const validateEmail = (email: string): boolean => {
         if (email === '') {
@@ -119,10 +119,8 @@ export const Mailchimp = () => {
                         <Flex
                             height="48" alignItems="center">
                             <Button
-                                id="mc-embedded-subscribe"
-                                value="mailto:designwith6ix@gmail.com"
-                                size="m"
-                                fillWidth>
+                                href='mailto:designwith6ix@gmail.com'
+                                   
                                 Sign up
                             </Button>
                         </Flex>
