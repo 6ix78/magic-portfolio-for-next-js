@@ -25,7 +25,7 @@ const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = 'en-GB' })
                 hour: '2-digit',
                 minute: '2-digit',
                 second: '2-digit',
-                hour12: false,
+                hour12: true,
             };
             const timeString = new Intl.DateTimeFormat(locale, options).format(now);
             setCurrentTime(timeString);
@@ -106,7 +106,6 @@ export const Header = () => {
                     )}
                     { routes['/gallery'] && (
                         <ToggleButton
-                            prefixIcon="whatsapp"
                             href="https://wa.me/message/6INXRRUW33HIN1"
                             selected={pathname.startsWith('/gallery')}>
                             <Flex paddingX="2" hide="s">{gallery.label}</Flex>
@@ -126,11 +125,3 @@ export const Header = () => {
         </Flex>
     )
 }
-var _smartsupp = _smartsupp || {};
-_smartsupp.key = '75803b411ce666b17dce79114ad539a76be47d86';
-window.smartsupp||(function(d) {
-	var s,c,o=smartsupp=function(){ o._.push(arguments)};o._=[];
-	s=d.getElementsByTagName('script')[0];c=d.createElement('script');
-	c.type='text/javascript';c.charset='utf-8';c.async=true;
-	c.src='https://www.smartsuppchat.com/loader.js?';s.parentNode.insertBefore(c,s);
-})(document);
