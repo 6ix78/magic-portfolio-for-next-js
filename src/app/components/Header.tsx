@@ -81,7 +81,7 @@ export const Header = () => {
                     )}
                     { routes['/about'] && (
                         <ToggleButton
-                            prefixIcon="person"
+                            prefixIcon="book"
                             href="/about"
                             selected={pathname === "/about"}>
                             <Flex paddingX="2" hide="s">{about.label}</Flex>
@@ -97,7 +97,7 @@ export const Header = () => {
                     )}
                     { routes['/blog'] && (
                         <ToggleButton
-                            prefixIcon="book"
+                            prefixIcon="gallery"
                             href="/blog"
                             selected={pathname.startsWith('/blog')}>
                             <Flex paddingX="2" hide="s">{blog.label}</Flex>
@@ -105,6 +105,7 @@ export const Header = () => {
                     )}
                     { routes['/gallery'] && (
                         <ToggleButton
+                            prefixIcon="person"
                             href="https://wa.me/message/6INXRRUW33HIN1"
                             selected={pathname.startsWith('/gallery')}>
                             <Flex paddingX="2" hide="s">{gallery.label}</Flex>
