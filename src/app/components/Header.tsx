@@ -25,7 +25,7 @@ const TimeDisplay: React.FC<TimeDisplayProps> = ({ timeZone, locale = 'en-GB' })
                 hour: '2-digit',
                 minute: '2-digit',
                 second: '2-digit',
-                hour12: false,
+                hour12: true,
             };
             const timeString = new Intl.DateTimeFormat(locale, options).format(now);
             setCurrentTime(timeString);
@@ -106,7 +106,6 @@ export const Header = () => {
                     )}
                     { routes['/gallery'] && (
                         <ToggleButton
-                            prefixIcon="whatsapp"
                             href="https://wa.me/message/6INXRRUW33HIN1"
                             selected={pathname.startsWith('/gallery')}>
                             <Flex paddingX="2" hide="s">{gallery.label}</Flex>
