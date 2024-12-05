@@ -64,7 +64,7 @@ const about = {
     },
     calendar: {
         display: false,
-        link: 'https://cal.com'
+        link: 'https://wa.me/message/6INXRRUW33HIN1'
     },
     intro: {
         display: true,
