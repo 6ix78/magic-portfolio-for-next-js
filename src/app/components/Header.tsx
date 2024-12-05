@@ -106,8 +106,8 @@ export const Header = () => {
                     )}
                     { routes['/gallery'] && (
                         <ToggleButton
-                            prefixIcon="gallery"
-                            href="/gallery"
+                            prefixIcon="whatsapp"
+                            href="https://wa.me/message/6INXRRUW33HIN1"
                             selected={pathname.startsWith('/gallery')}>
                             <Flex paddingX="2" hide="s">{gallery.label}</Flex>
                         </ToggleButton>
