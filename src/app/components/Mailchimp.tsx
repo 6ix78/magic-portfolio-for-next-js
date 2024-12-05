@@ -119,8 +119,9 @@ export const Mailchimp = () => {
                         <Flex
                             height="48" alignItems="center">
                             <Button
-                                href='mailto:designwith6ix@gmail.com'
-                                   
+                                id="mc-embedded-subscribe"
+                                href='mailto:designwith6ix@gmail.com'>
+                               
                                 Sign up
                             </Button>
                         </Flex>
