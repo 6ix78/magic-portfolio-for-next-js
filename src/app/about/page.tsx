@@ -152,13 +152,13 @@ export default function About() {
                                 </Flex>
                                 <Flex
                                     paddingX="8">
-                                    Schedule a call
+                                    WhatsApp
                                 </Flex>
                                 <IconButton
-                                    href={about.calendar.link}
+                                    href={https://wa.me/message/6INXRRUW33HIN1}
                                     data-border="rounded"
                                     variant="tertiary"
-                                    icon="chevronRight"/>
+                                    icon="whatsapp"/>
                             </Flex>
                         )}
                         <Heading
