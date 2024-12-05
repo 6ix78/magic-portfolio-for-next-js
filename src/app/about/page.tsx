@@ -155,10 +155,10 @@ export default function About() {
                                     WhatsApp
                                 </Flex>
                                 <IconButton
-                                    href={https://wa.me/message/6INXRRUW33HIN1}
+                                    href="https://wa.me/message/6INXRRUW33HIN1"
                                     data-border="rounded"
                                     variant="tertiary"
-                                    icon="whatsapp"/>
+                                   />
                             </Flex>
                         )}
                         <Heading
