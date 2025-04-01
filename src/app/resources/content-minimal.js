@@ -2,8 +2,8 @@ import { InlineCode } from "@/once-ui/components";
 import Link from 'next/link'
 
 const person = {
-    firstName: 'EXTB',
-    lastName:  'NFT',
+    firstName: 'Selene',
+    lastName:  'Yu',
     get name() {
         return `${this.firstName} ${this.lastName}`;
     },
@@ -39,7 +39,7 @@ const social = [
     {
         name: 'Email',
         icon: 'email',
-        link: 'mailto:info@extradebot.com',
+        link: 'mailto:designwith6ix@gmail.com',
     },
 ]
 
@@ -53,7 +53,7 @@ const home = {
 
 const about = {
     label: 'About',
-    title: 'Cliam EXTB 🎊',
+    title: 'About me',
     description: `Meet ${person.name}, ${person.role} from ${person.location}`,
     tableOfContent: {
         display: false,
